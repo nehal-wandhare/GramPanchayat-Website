@@ -174,3 +174,37 @@ hr {
   border-top: 1px solid #1e88e5;
   margin: 14px 0;
 }
+
+/* 📱 Mobile Optimization */
+@media (max-width: 768px) {
+
+  .card-section {
+    min-height: auto;     /* remove forced height */
+    padding: 10px;
+  }
+
+  .card-wrapper {
+    padding: 10px;
+  }
+
+  .gp-card {
+    margin: 10px auto;    /* reduce vertical gap */
+    padding: 12px;
+  }
+
+  .highlight-row {
+    grid-template-columns: 1fr;   /* stack highlights vertically */
+  }
+
+  .officer-box {
+    flex-direction: column;       /* stack image + text */
+    align-items: center;
+    text-align: center;
+  }
+
+  .officer-box img {
+    width: 110px;
+    height: auto;
+  }
+}
+
