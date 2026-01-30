@@ -46,7 +46,19 @@ export default function GrampanchayatHeader() {
 
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light customNav">
-        <div className="container d-flex justify-content-center gap-5">
+        <div className="container">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#gpNavbar"
+            aria-controls="gpNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
           <div className="collapse navbar-collapse" id="gpNavbar">
             <ul className="navbar-nav mx-auto text-center gap-4">
               <li className="nav-item">
