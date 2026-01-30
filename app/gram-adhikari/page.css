@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap");
+
+
+.card-section {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: #f5f7fa;
+  width: 100%;
+}
+
+.gp-card {
+  background: #ffffff;
+  padding: 16px;
+  border: 2px solid #1976d2;
+  border-radius: 14px;
+  margin: 25px auto;
+  max-width: 900px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.gp-title {
+  background: #e3f2fd;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+/* Header */
+.gp-header span {
+  color: #0d47a1;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.gp-header p {
+  color: #555;
+  display: block;
+  font-size: 13px;
+}
+
+/* Officer */
+.officer-box {
+  display: flex;
+  gap: 12px;
+  background: #e3f2fd;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.officer-box img {
+  width: 90px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid #90caf9;
+}
+
+.officer-details h2 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  color:black ;
+}
+
+.role {
+  font-weight: 600;
+}
+
+.phone {
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+/* Sections */
+.section {
+  margin-top: 14px;
+}
+
+.section h3 {
+  color: #0d47a1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.section h4 {
+  color: #0d47a1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+/* Info */
+.info-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.info-row {
+  background: #f1f8ff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.gs-section {
+  margin-bottom: 14px;
+}
+
+.gs-section h4 {
+  color: #0d47a1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+/* List */
+.section ul {
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+.section li {
+  margin-bottom: 4px;
+}
+
+/* Highlights */
+.highlight-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.hl {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.hl p {
+  margin: 4px 0 0;
+}
+
+.blue {
+  background: #e3f2fd;
+}
+.green {
+  background: #e8f5e9;
+}
+.yellow {
+  background: #fffde7;
+}
+
+/* Footer */
+.footer-section {
+  background: #f5f5f5;
+  color: #555;
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #1e88e5;
+  margin: 14px 0;
+}

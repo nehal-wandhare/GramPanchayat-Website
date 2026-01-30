@@ -1,0 +1,92 @@
+/* Use Arial as requested */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page container */
+.death-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Headings */
+.death-title {
+  color: #8b0000;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.death-title span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.death-subtitle {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Form card */
+.form-card {
+  width: 420px;
+  margin: 0 auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.form-card input {
+  width: 100%;
+  padding: 11px 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Button */
+.death-btn {
+  width: 100%;
+  padding: 12px;
+  background: #8b0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.death-btn:hover {
+  background: #6f0000;
+}
+
+/* Records (full-width, input-like) */
+.records {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+
+.records h4 {
+  margin-bottom: 8px;
+}
+
+/* Empty state */
+.empty-text {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Record styled like input */
+.record {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}

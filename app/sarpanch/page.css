@@ -1,0 +1,297 @@
+/* PAGE BACKGROUND */
+.sarpanch-page {
+  padding: 40px;
+  background: #ffffff;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* MAIN CONTAINER */
+.main-card {
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #1e88ff;
+  border-radius: 18px;
+  padding: 30px;
+  background: #f9feff;
+}
+
+/* HEADER */
+.page-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gp-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #1e88ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header h1 {
+  margin: 0px;
+  font-size: 26px;
+  color: rgb(30, 136, 229);
+  font-weight: bold;
+}
+
+.page-header p {
+  font-size: 15px;
+  color: #444;
+}
+
+.custom-hr {
+  border: none;
+  height: 3px;
+  background-color: rgb(61, 151, 229);
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: #d9efff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ffffff;
+}
+
+/* PROFILE INFO */
+.profile-info h2 {
+  margin: 0px 0px 10px;
+  font-size: 22px;
+  color: rgb(21, 101, 192);
+  font-weight: bold;
+}
+.profile-info p {
+  font-size: 18px;
+  color: rgb(25, 118, 210);
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(25, 118, 210);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.phone {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* MESSAGE */
+.message-card {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid rgb(66, 165, 245);
+}
+
+.message-card h3 {
+  color: rgb(25, 118, 210);
+  border-bottom: 2px solid rgb(25, 118, 210);
+  padding-bottom: 8px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.message-card p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* PAGE */
+.upsarpanch-page {
+  padding: 40px;
+  background: #ffffff;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* OUTER CONTAINER */
+.upsarpanch-container {
+  max-width: 1000px;
+  margin: auto;
+  border: 2px solid #1e88ff;
+  border-radius: 20px;
+  padding: 30px;
+  background: #f9feff;
+}
+
+/* HEADER */
+.upsarpanch-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.gp-badge {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #1e3f8a;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text h1 {
+  margin: 0px;
+  font-size: 26px;
+  color: rgb(26, 64, 131);
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 15px;
+  color: #444;
+}
+
+.datetime {
+  font-size: 14px;
+  color: #d32f2f;
+  font-weight: 600;
+}
+
+/* HR */
+.custom-hr {
+  border: none;
+  height: 3px;
+  background-color: #1e3f8a;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+
+/* PROFILE CARD */
+.profile-highlight {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: #d9f2d9;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #ffffff;
+}
+
+/* PROFILE TEXT */
+.profile-details h2 {
+  margin: 0px 0px 10px;
+  font-size: 22px;
+  color: rgb(26, 64, 131);
+  font-weight: bold;
+}
+
+.profile-quote {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(26, 64, 131);
+  margin-bottom: 6px;
+}
+
+.profile-phone {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(26, 64, 131);
+}
+
+/* MESSAGE BOX */
+.message-box {
+  margin-top: 35px;
+  padding: 25px;
+  border-left: 6px solid #1e3f8a;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.message-box h3 {
+  color: rgb(26, 64, 131);
+  border-bottom: 2px solid rgb(26, 64, 131);
+  padding-bottom: 8px;
+  margin-top: 0px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.section-hr {
+  border: none;
+  height: 2px;
+  background: #1e3f8a;
+  border-radius: 8px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.message-box p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .upsarpanch-header,
+  .profile-highlight {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-photo {
+    margin-bottom: 10px;
+  }
+
+  .upsarpanch-container {
+    padding: 20px;
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .page-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    margin-bottom: 10px;
+  }
+}

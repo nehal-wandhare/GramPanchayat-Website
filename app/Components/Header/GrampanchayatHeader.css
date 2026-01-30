@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+
+.header-container {
+  font-family: 'Instrument Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.topBar {
+  background: #0b3c8d;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.topBar span {
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.headerSection {
+  max-width: 1300px;
+  margin: auto;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-side {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.header-center {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.emblem {
+  height: 70px;
+}
+
+.titleBox {
+  background: linear-gradient(90deg, #0a8dff, #00c81f);
+  color: #fff;
+  padding: 35px 45px;
+  border-radius: 18px;
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+  /* smooth animation */
+  cursor: pointer;
+  /* shows pointer on hover */
+}
+
+/* Hover effect */
+.titleBox:hover {
+  transform: translateY(-1px) scale(1.0);
+  /* lifts and slightly enlarges */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.35);
+  /* deeper shadow */
+}
+
+
+.titleBox h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.titleBox span {
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.leaders {
+  display: flex;
+
+}
+
+.leaders img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin: 2px;
+  overflow: hidden;
+}
+
+/* Navbar shadow */
+.customNav {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+
+}
+
+
+
+/* Navbar items layout */
+.navbar-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-item {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 900;
+
+}
+
+
+/* Links style */
+.navLink {
+  color: #0b3c8d !important;
+  font-weight: 700;
+  transition: color 0.3s;
+  border-radius: 12px !important;
+}
+
+.navLink:hover {
+  background-color: #0b3c8d;
+  color: white !important;
+
+}
+
+/* Dropdown menu style */
+.dropdown-menu {
+  background-color: #f4f6fb;
+  /* optional */
+  border: none;
+  /* optional */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: dropdown item hover */
+.dropdown-item:hover {
+  background-color: #e6f2e6;
+  /* light green on hover */
+}
+
+.dropdown-menu li a:hover {
+  color: #0982ec;
+  background-color: #c0cdf2;
+}

@@ -1,0 +1,84 @@
+.development-container {
+  padding: 30px;
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0a4d68;
+  margin-bottom: 30px;
+}
+
+.page-title span {
+  font-size: 18px;
+  color: #555;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.info-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #0a4d68;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.18);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.card-header h3 {
+  color: #004d40;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.check-icon {
+  color: #2ecc71;
+  font-size: 18px;
+}
+
+.info-card ul {
+  white-space: pre-line;
+  list-style: none;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.info-card li {
+  font-size: 14px;
+  color: #333;
+  padding: 4px 0;
+}
+
+.card-footer {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+}

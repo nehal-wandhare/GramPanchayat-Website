@@ -1,0 +1,307 @@
+/* PAGE */
+.page-wrapper {
+  background-color: #fcfcfc;
+  color: #333;
+  font-family:
+    Segoe UI,
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 30px 20px;
+}
+
+/* MAIN TITLE */
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1e6fe3;
+  border-bottom: 4px solid #1e6fe3;
+  display: inline-block;
+  padding-bottom: 6px;
+  margin-bottom: 16px;
+}
+
+/* INTRO */
+.page-intro {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 900px;
+}
+
+/* SECTION HEADING */
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+  padding-left: 14px;
+  border-left: 5px solid #43a047;
+}
+
+.section-heading h2 {
+  font-size: 28px;
+  color: #43a047;
+  font-weight: 700;
+}
+
+.section-icon {
+  font-size: 26px;
+}
+
+/* VISION GRID */
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* CARD */
+.vision-card {
+  background: #ffffff;
+  border: 1.5px solid #c6e6b8;
+  border-radius: 14px;
+  padding: 28px 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.vision-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* ICON */
+.vision-icon {
+  font-size: 34px;
+  margin-bottom: 14px;
+}
+
+/* CARD TEXT */
+.vision-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.vision-card p {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* SERVICES */
+.services-list {
+  max-width: 900px;
+}
+
+.services-list li {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.info-wrapper {
+
+  font-family: "Segoe UI", system-ui, sans-serif;
+
+}
+
+/* CARD */
+.info-card {
+  background: #eaf7ea;
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* HEADING */
+.info-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 14px;
+  border-left: 5px solid #43a047;
+  margin-bottom: 18px;
+}
+
+.info-heading h2 {
+  font-size: 26px;
+  color: #43a047;
+  font-weight: 700;
+}
+
+.info-icon {
+  font-size: 26px;
+}
+
+/* LIST */
+.info-list {
+  list-style: disc;
+  padding-left: 30px;
+}
+
+.info-list li {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+
+/* EMAIL */
+.info-email {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.info-email a {
+  color: #1e6fe3;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.info-email a:hover {
+  text-decoration: underline;
+}
+
+
+.panchayat-wrapper {
+ 
+  font-family: "Segoe UI", system-ui, sans-serif;
+
+  color: #222;
+}
+
+/* SECTION */
+.panchayat-section {
+  margin-bottom: 40px;
+}
+
+/* HEADING */
+.panchayat-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 14px;
+  border-left: 5px solid #43a047;
+  margin-bottom: 16px;
+}
+
+.panchayat-heading h2 {
+  font-size: 26px;
+  color: #43a047;
+  font-weight: 700;
+}
+
+.heading-icon {
+  font-size: 24px;
+}
+
+/* LIST */
+.panchayat-list {
+  padding-left: 30px;
+}
+
+.panchayat-list li {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 6px;
+}
+
+/* HIGHLIGHT BOX */
+.panchayat-highlight {
+  margin: 40px 0;
+}
+
+.panchayat-highlight h3 {
+  font-size: 22px;
+  color: #e65100;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.panchayat-highlight p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* SARPANCH MESSAGE */
+.sarpanch-note {
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.sarpanch-text {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 900px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .panchayat-wrapper {
+    padding: 20px;
+  }
+
+  .panchayat-heading h2 {
+    font-size: 22px;
+  }
+
+  .panchayat-list li,
+  .panchayat-highlight p,
+  .sarpanch-text {
+    font-size: 15px;
+  }
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .info-wrapper {
+    padding: 20px;
+  }
+
+  .info-heading h2 {
+    font-size: 22px;
+  }
+
+  .info-list li {
+    font-size: 15px;
+  }
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .page-wrapper {
+    padding: 30px 40px;
+  }
+
+  .vision-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .page-wrapper {
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 28px;
+  }
+
+  .section-heading h2 {
+    font-size: 22px;
+  }
+
+  .vision-grid {
+    grid-template-columns: 1fr;
+  }
+}
