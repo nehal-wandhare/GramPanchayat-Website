@@ -109,6 +109,9 @@
 
 }
 
+.navbar-toggler-icon {
+  filter: invert(1);
+}
 
 
 /* Navbar items layout */
@@ -158,4 +161,5 @@
 .dropdown-menu li a:hover {
   color: #0982ec;
   background-color: #c0cdf2;
+
 }
