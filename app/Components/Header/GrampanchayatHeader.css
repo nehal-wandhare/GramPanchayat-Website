@@ -109,10 +109,17 @@
 
 }
 
-.navbar-toggler-icon {
-  filter: invert(1);
+.navbar-toggler {
+  background-color: #6c757d;   /* Bootstrap secondary grey */
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
 }
 
+/* Make hamburger lines white for contrast */
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
 
 /* Navbar items layout */
 .navbar-items ul {
@@ -163,3 +170,4 @@
   background-color: #c0cdf2;
 
 }
+
