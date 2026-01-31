@@ -65,6 +65,12 @@ export default function CommitteePage() {
       phone: "+91 7972989124",
       image: "/Images/karmachariIcons/hore.jpeg",
     },
+    {
+      name: "कु. श्वेता रमेश येरेवार",
+      role: "ग्रामपंचायत कर्मचारी",
+      phone: "+91 7499210798",
+      image: "/Images/karmachariIcons/shweta.jpeg",
+    },
 
     // 👉 Add remaining members here
   ];
