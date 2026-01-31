@@ -110,7 +110,7 @@
 }
 
 .navbar-toggler {
-  background-color: #6c757d;   /* Bootstrap secondary grey */
+  background-color: #6c757d !important;  /* Bootstrap secondary grey */
   border: none;
   border-radius: 6px;
   padding: 6px 10px;
@@ -168,22 +168,20 @@
 .dropdown-menu li a:hover {
   color: #0982ec;
   background-color: #c0cdf2;
-
 }
+
 
 /* 📱 Mobile Only */
 @media (max-width: 991px) {
 
   .navbar .container {
     display: flex;
-    justify-content: flex-end !important;
+    justify-content: flex-start !important;
   }
 
   .navbar-toggler {
-    margin-left: 0;
+    margin-left: auto;
   }
 
 }
-
-
 
